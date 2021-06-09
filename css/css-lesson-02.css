@@ -1,0 +1,67 @@
+/*stylesheet*/ 
+
+
+body {
+	background-color: #77BFA3;
+	color: #333333;
+	font-size: 16px;
+	font-family: 'Nanum Gothic', sans-serif;
+	background: url('../images/grass-path.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#wrapper {
+	/*when doing margins/padding, you can either write out each margin
+	left right top bottom on a separate line or just put it in
+	one line like so, and it will understand top/bottom as
+	one value (2em) and left/right as a second value on the line (auto)
+	If you put 4 values, it will read it as top, right, bottom, left */
+	margin: 2em auto;
+	max-width: 960px;
+	padding: 0 20px;
+}
+
+.article {
+	/* you can use shorthand for writing hex codes for colors
+	if the code is 6 of the same letter like #ffffff, you can just write #fff */
+	padding: 60px 0 20px 0;
+	background-color: #fff
+}
+
+img {
+	display: block;
+	width:  100%;
+	height: auto;
+	margin: 60px 0;
+}
+
+h1, p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p {
+	font-weight: 200;
+	line-height: 1.7;
+}
+
+p.byline {
+	color: #666;
+	font-size: 12px;
+}
+
+h1 {
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 900;
+	margin-top: 0;
+}
+
+.article a {
+	color: #98C9A3;
+
+}
+
+.article a:hover {
+	text-decoration:  none;
+}
