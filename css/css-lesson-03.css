@@ -1,0 +1,92 @@
+/*stylesheet*/ 
+
+
+body {
+	background-color: #77BFA3;
+	color: #333333;
+	font-size: 16px;
+	font-family: 'Nanum Gothic', sans-serif;
+	background: url('../Images/totoro-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#wrapper {
+	/*when doing margins/padding, you can either write out each margin
+	left right top bottom on a separate line or just put it in
+	one line like so, and it will understand top/bottom as
+	one value (2em) and left/right as a second value on the line (auto)
+	If you put 4 values, it will read it as top, right, bottom, left */
+	margin: 2em auto;
+	max-width: 960px;
+	padding: 0 20px;
+}
+
+.article {
+	/* you can use shorthand for writing hex codes for colors
+	if the code is 6 of the same letter like #ffffff, you can just write #fff */
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding: 60px 0 20px 0;
+	background-color: #fff
+}
+
+.article div {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box {
+	/* default is content-box so you don't have to set it, but we can do it for fun */
+	float: right;
+	width: 230px;
+	border: solid greenyellow; 3px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.masthead {
+	width: 850px ;
+	border: solid blueviolet; 3px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.half, .second-half {
+	/* you can do this ^ to save space to add styles for multiple things  */
+	/* width: 50%; */
+	width: calc(50% - 40px);
+	/* ^ to make things line up neatly in one line even with padding/margins/borders */
+	padding: 20px;
+}
+
+.half {
+	float: left;
+}
+
+.second-half {
+	float: right;
+}
+
+.em-size-box {
+	width: 1em;
+	height: 1em;
+	background-color: orange !important;
+}
+
+.rem-size-box {
+	width: 2rem;
+	height: 2rem;
+	background-color: red !important;
+}
+
+.new-font-size {
+	/* defining the font size here will affect the em unit but not the rem unit */
+	font-size: 90px;
+}
+
+.vw-vh-demo {
+	background-color: lightblue;
+	width: 100vw;
+	height: 100vh;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+ 		<title>CSS Lesson 03 - Box Model and Sizing Units</title>
+ 		<meta name="keywords" content="lesson, HTML, Binghamton University">
+ 		<meta name="description" content="This is a basic intro to HTML coding.">
+ 		<link rel="stylesheet" type="text/css" href="css/css-lesson-03.css">
+
+ 		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+
+ 	</head>
+
+ 	<body>
+ 		
+ 		<div id="wrapper">
+ 			<div class="article">
+
+ 				<h1>Box Model</h1>
+
+				<div class="masthead">
+ 					navigation here
+ 				</div>
+
+ 				<div class="box">
+ 					my 1st box
+ 				</div>	
+ 				<div class="box">
+ 					my 2nd box
+ 				</div>	
+ 				<div class="box">
+ 					my 3rd box
+ 				</div>	 				
+ 				
+ 				<div class="box">
+ 					my 1st box
+ 				</div>	
+ 				<div class="box">
+ 					my 2nd box
+ 				</div>	
+ 				<div class="box">
+ 					my 3rd box
+ 				</div>	 				
+
+ 				<div class="box">
+ 					my 1st box
+ 				</div>	
+ 				<div class="box">
+ 					my 2nd box
+ 				</div>	
+ 				<div class="box">
+ 					my 3rd box
+ 				</div>	
+
+ 				<h1>Sizing Units</h1>
+
+ 				<p>
+ 					<!--absolute units are px, mm, and inches, the last 2 are more suited for print not for digital media,
+ 						absolute units are not good for responsiveness-->
+ 					px unit: the #1 absolute unit
+ 				</p>
+
+
+ 				<p>
+ 					<!-- good for responsiveness-->
+ 					% percentage units.
+ 				</p>	 			
+
+ 				<div>
+ 					<div class="half">
+ 						First Half
+ 					</div>
+
+ 					<div class="second-half">
+ 						Second Half
+ 					</div>
+ 				</div>
+
+
+ 				<p>
+ 					<!-- relative to the font size -->
+ 					em units.
+ 				</p>
+
+ 				<div class="new-font-size">
+	 				<div class="em-size-box">
+	 				</div>
+	 			</div>
+
+	 			<div class="em-size-box">
+				</div>
+
+
+ 				<p>
+ 					<!-- always refers to the root as opposed to the em unit, if you define in the body that this is 12 px it's 12 px -->
+ 					rem units.
+ 				</p>
+ 				
+ 				<div class="new-font-size">
+	 				<div class="rem-size-box">
+	 				</div>
+	 			</div>
+
+	 			<div class="rem-size-box">
+				</div>
+
+				<p>
+					<!-- viewport width and height, the viewport is the entire eidth and height of the page? -->
+					vw and vh units. 
+				</p>
+
+
+ 			</div>
+
+ 		</div>
+
+<div class="vw-vh-demo">
+	VH and VW demo
+</div>
+
+ 	</body>
+
+
+</html>
