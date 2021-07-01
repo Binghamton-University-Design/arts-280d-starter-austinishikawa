@@ -65,7 +65,7 @@ h4 {
 }
 
 #logo svg {
-	margin-right: 25rem;
+	margin-right: .25rem;
 	height: 1.6rem;
 	width: auto;
 }
@@ -83,7 +83,8 @@ h4 {
 }
 
 #nav a:hover, #nav a.active {
-	text-decoration-color: var(--body-color);
+	text-decoration-line: none;
+	color: #009F95;
 }
 
 #nav.active {
@@ -366,7 +367,7 @@ h4 {
 	}
 }
 
-@media all and (max-width: 699px) {
+@media all and (max-width: 599px) {
 	#nav-button {
 		display: block;
 	}
@@ -388,7 +389,7 @@ h4 {
 	}
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 600px) {
 	#intro {
 		height: 70vh;
 	}
