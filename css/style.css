@@ -367,7 +367,7 @@ h4 {
 	}
 }
 
-@media all and (max-width: 1199px) {
+@media all and (max-width: 699px) {
 	#nav-button {
 		display: block;
 	}
@@ -389,7 +389,7 @@ h4 {
 	}
 }
 
-@media all and (min-width: 1200x) {
+@media all and (min-width: 700x) {
 	#intro {
 		height: 70vh;
 	}
