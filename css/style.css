@@ -250,6 +250,32 @@ h4 {
 	height: 100%;
 }
 
+/*Just for crewneck*/
+
+#crewneck img {
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+
+#crewneck .work-inside {
+	position: absolute;
+	width: auto;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#crewneck .inner {
+	position: relative;
+	display: block;
+}
+
+#crewneck {
+	padding-top: 0;
+	height: auto;
+}
+
 /* Just for watermelon */
 #watermelon img {
 	height: auto;
@@ -349,6 +375,31 @@ h4 {
 
 #portfolio p a:hover {
 	text-decoration-color: transparent;
+}
+
+#home-button h6 a {
+	color: black;
+	text-decoration: none;
+}
+
+#home-button {
+	padding-bottom: 3rem;
+}
+
+/*Portfolio AF1*/
+
+#af1-caption {
+	padding-bottom: 5rem;
+}
+
+#shoes {
+	width: 100%;
+}
+
+/* ABOUT */
+
+#writings-holder p {
+	line-height: 2;
 }
 
 /* FOOTER */
