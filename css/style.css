@@ -394,12 +394,19 @@ h4 {
 
 #shoes {
 	width: 100%;
+	max-width: 800px;
 }
 
 /* ABOUT */
 
 #writings-holder p {
 	line-height: 2;
+}
+
+/* Shoes and Posters Responsive centering */
+
+#portfolio-holder div {
+	text-align: center;
 }
 
 /* FOOTER */
